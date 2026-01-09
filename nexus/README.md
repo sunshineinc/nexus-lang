@@ -1,29 +1,22 @@
-# NEXUS
-
-## Repositório oficial da linguagem de programação Nexus.
-
+NEXO
+Repositório oficial da linguagem de programação Nexus.
 Este é um projeto pessoal de linguagem de programação no qual estou trabalhando. Sinta-se à vontade para experimentá-lo e dar sua opinião!
 
-### **Como configurar:**
+Como configurar:
+Clone o repositório usando o Git:git clone https://github.com/sunshineinc/nexus-lang.git
+- . para Windows:
+Execute o seguinte comando para criar um arquivo correspondente:pyinstaller --noconfirm --onedir --console --icon "./assets/nexus_ico.ico" --name "NEXUS" --log-level "DEBUG" "./source/interpreter.py"
 
-- Clone o repositório usando o Git: `git clone `
+Você precisa do PyInstaller para executar este comando.
 
-#### - Instruções para Windows:
+Adicione a pasta que contém "florish.ps1" às suas variáveis ​​de ambiente:
 
-- Execute o seguinte comando para criar um arquivo executável: `pyinstaller --noconfirm --onedir --console --icon "./assets/bloom_ico.ico" --name "BLOOM" --log-level "DEBUG" "./source/interpreter.py"`
+ambiente
 
-- Você precisa do PyInstaller para executar este comando.
+Você também pode modificar o caminho para o seguinte nível de seu interpretador em "florish.ps1":
+caminho
 
-- Adicione a pasta que contém "florish.ps1" às suas variáveis ​​de ambiente:
+Agora você pode executar florish path_to_file.nxe iniciar o interpretador.
+código
 
-![env](/assets/enviroment.png)
-
-- Você também pode modificar o caminho para o executável do seu interpretador em "florish.ps1":
-
-![path](/assets/exe_path.png)
-
-- Agora você pode executar `florish path_to_file.nx` e iniciar o interpretador.
-
-![code](/assets/run_code.png)
-
-- Este repositório já contém alguns exemplos de código para você testar!
+Este repositório já contém alguns exemplos de código para você testar!
