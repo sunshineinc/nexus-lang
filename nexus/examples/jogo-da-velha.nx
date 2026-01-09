@@ -1,0 +1,36 @@
+# Silly code for you to test ! :) #
+
+vet cliNames = ["john", "cloe", "josh", "aron"];
+vet cliAges = ["23", "19", "26", "18"];
+
+var progOpen = verdadeiro;
+
+enquanto progOpen {
+    var newName = ler "new client name ";
+
+    se newName != "break" {
+        var newAge = ler "new client age ";
+
+        cliNames[tamanho cliNames] = newName;
+        cliAges[tamanho cliAges] = newAge;
+
+        del newName;
+        del newAge;
+    }
+    senao {
+        progOpen = falso;
+    }
+}
+
+var i = 0;
+
+se tamanho cliNames == tamanho cliAges {
+
+    enquanto i < tamanho cliNames {
+        escreva cliNames[i] + " : " + cliAges[i];
+        i = i + 1;
+    }
+}
+senao {
+    escreva "names and ages arrays must have the same size!";
+}
