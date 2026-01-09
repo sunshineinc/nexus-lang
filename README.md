@@ -3,9 +3,9 @@ Repositório oficial da linguagem de programação Nexus.
 Este é um projeto pessoal de linguagem de programação no qual estou trabalhando. Sinta-se à vontade para experimentá-lo e dar sua opinião!
 
 Como configurar:
-Clone o repositório usando o Git:git clone 
+Clone o repositório usando o Git:git clone https://github.com/sunshineinc/nexus-lang.git
 - . para Windows:
-Execute o seguinte comando para criar um arquivo correspondente:pyinstaller --noconfirm --onedir --console --icon "./assets/bloom_ico.ico" --name "BLOOM" --log-level "DEBUG" "./source/interpreter.py"
+Execute o seguinte comando para criar um arquivo correspondente:pyinstaller --noconfirm --onedir --console --icon "./assets/nexus_ico.ico" --name "NEXUS" --log-level "DEBUG" "./source/interpreter.py"
 
 Você precisa do PyInstaller para executar este comando.
 
