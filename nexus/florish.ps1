@@ -8,6 +8,6 @@ if (!(Test-Path $filePath)) {
 }
 
 else {
-    & ".\interpreter.exe" $filePath
+    & ".\source\dist\BLOOM\BLOOM.exe" $filePath
 }
 
